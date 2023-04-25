@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 46.1875em) {
   #nav > li {
     display: block;
   }
@@ -110,7 +110,9 @@
   }
 }
 
-@media (min-width: 740px) and (max-width: 1024px) {
+
+/*tablet*/
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
   #Slider {
     background-color: red;
     background-image: none;

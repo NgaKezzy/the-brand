@@ -132,7 +132,7 @@ html {
 #slider {
   padding-top: 50%;
   margin-top: 46px;
-  background: top center / cover no-repeat;
+  background:url(../images/chicago.jpg) top center / cover no-repeat;
   position: relative;
   
 }
@@ -147,6 +147,7 @@ html {
 
 #slider .content-slider {
   color: white;
+  text-shadow: 0 0 1px black;
 }
 
 .content-slider p {
