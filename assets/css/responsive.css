@@ -1,0 +1,108 @@
+@media (max-width: 767px) {
+  #nav > li {
+    display: block;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  #nav {
+    display: block;
+  }
+
+  .search-btn {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #nav > li:first-child{
+    display: inline-block;
+  }
+
+  li#parent {
+    display: none;
+  }
+
+  .content-secsion {
+    max-width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .member-list {
+    display: block;
+  }
+
+  .member-item {
+    float: none;
+    width: 100%;
+  }
+
+  .member-img {
+    margin-top: 15px;
+    width: 60%;
+    border-radius: 4px;
+  }
+
+  .place-item {
+    float: none;
+    width: 100%;
+  }
+
+  .place-item {
+   
+    padding-bottom: 18px;
+}
+
+  .contact-container {
+    display: block;
+  }
+
+  .contact-container {
+    padding-top: 24px;
+    
+}
+
+  .contact-left {
+    font-size: 18px;
+    width: 100%;
+    height: 85px;
+    padding-left: 8px;
+  }
+
+  .contact-right {
+    width: 100%;
+  }
+
+  .row-half input {
+    width: 100%;
+  }
+
+  .form-contact {
+    display: block;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+  #Slider {
+    background-color: red;
+    background-image: none;
+  }
+
+  .content-secsion {
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .row-half input {
+    width: 100%;
+  }
+}
