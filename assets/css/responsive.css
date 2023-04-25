@@ -22,7 +22,7 @@
     right: 0;
   }
 
-  #nav > li:first-child{
+  #nav > li:first-child {
     display: inline-block;
   }
 
@@ -43,6 +43,7 @@
   .member-item {
     float: none;
     width: 100%;
+    padding-top: 32px;
   }
 
   .member-img {
@@ -57,9 +58,8 @@
   }
 
   .place-item {
-   
     padding-bottom: 18px;
-}
+  }
 
   .contact-container {
     display: block;
@@ -67,8 +67,7 @@
 
   .contact-container {
     padding-top: 24px;
-    
-}
+  }
 
   .contact-left {
     font-size: 18px;
@@ -79,6 +78,7 @@
 
   .contact-right {
     width: 100%;
+    margin-top: 32px;
   }
 
   .row-half input {
@@ -87,6 +87,26 @@
 
   .form-contact {
     display: block;
+  }
+
+  .row-full,
+  .row-half {
+    padding: 5px 0px;
+  }
+
+  .place-buy-btn {
+    width: 100%;
+    border: none;
+  }
+
+  .submit {
+    margin-top: 16px;
+    width: 100%;
+  }
+
+  .social a {
+    margin: 0 8px;
+    font-size: 48px;
   }
 }
 
